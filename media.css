@@ -39,7 +39,9 @@
   .heading{
     margin-bottom: 50px;
   }
-
+ .heading::before{
+   font-size: 100px;
+ }
 }
 @media screen and (max-width:766px){
   .slider-bottom{

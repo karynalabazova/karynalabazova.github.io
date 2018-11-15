@@ -52,9 +52,11 @@
     visibility: hidden;
   }
   .top-gallery{
-    height: 60%;
+    height: 50%;
+    align-items: flex-start;
   }
   .top-gallery>img{
+    margin-top: 60px;
     width: 90%;
   }
   .top-gallery-background{
@@ -62,7 +64,7 @@
     visibility: hidden;
   }
   .slider-bottom{
-    top:60%;
+    top:50%;
     transform: translate(0);
     flex-direction: column;
     align-items: center;
@@ -138,4 +140,14 @@ body.nav-active .main-nav {
   opacity: 1;
   visibility: visible;
   transform: translateX(0);
+}
+.heading>p{
+  font-size: 16px;
+}
+.content>p{
+  font-size: 18px;
+}
+.bottom-gallery-content>p{
+  font-size: 18px;
+}
 }

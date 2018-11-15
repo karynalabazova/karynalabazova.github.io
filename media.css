@@ -54,24 +54,6 @@
   .bottom-gallery-item{
     width: 100%;
   }
-  .prev,.next{
-    opacity: 0;
-    visibility: hidden;
-  }
-  .top-gallery>img{
-    width: 90%;
-  }
-  .top-gallery-background{
-    width: 90%;
-  }
-
-.gap{
-  margin: 10vw 0;
-}
-.slider-bottom{
-  justify-content: flex-start;
-}
-
 #nav-opener {
   float: right;
   display:block;

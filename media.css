@@ -150,4 +150,7 @@ body.nav-active .main-nav {
 .bottom-gallery-content>p{
   font-size: 18px;
 }
+.bottom-gallery-content{
+  padding: 0 10px;
+}
 }

@@ -45,7 +45,56 @@
 }
 @media screen and (max-width:766px){
   .top-section{
-    min-height: 100vh;
+    height: 100vh;
+  }
+  .prev,.next{
+    opacity: 0;
+    visibility: hidden;
+  }
+  .top-gallery{
+    height: 60%;
+  }
+  .top-gallery>img{
+    width: 90%;
+  }
+  .top-gallery-background{
+    opacity: 0;
+    visibility: hidden;
+  }
+  .slider-bottom{
+    top:60%;
+    transform: translate(0);
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 40%;
+  }
+  .pages{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 20px;
+  }
+  .button-book{
+  width: 100%;
+  justify-content: center;
+  }
+  .book{
+    font-size: 18px;
+  }
+  .border>button{
+    font-size: 18px;
+  }
+  .pages a{
+    padding: 0 10px;
+  }
+  .arrow{
+    padding-bottom: 10px;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translate(-50%,-100%);
   }
   .foto{
     width: 100%;

@@ -44,39 +44,6 @@
  }
 }
 @media screen and (max-width:766px){
-  .slider-bottom{
-    flex-direction: column;
-    justify-content:space-between;
-    align-items:center;
-    min-height: 300px;
-    margin: -30px 0;
-  }
-  .top-gallery{
-    max-height: 600px;
-  }
-.top-gallery-background{
-  display: none;
-}
-  .pages{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px 0;
-  }
-  .arrow{
-  position: absolute;
-  margin: 20px 0;
-  top:80%;
-  }
-  .pages a{
-  padding: 0 10px;
-  }
-  .book{
-  padding: 10px 30px;  }
-  .button-book{
-    margin: 30px 0;
-    justify-content: center;
-    width: 300px;
-  }
   .top-section{
     min-height: 100vh;
   }
